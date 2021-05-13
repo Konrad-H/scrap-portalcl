@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scrap-portalcl"
+version = "0.1.0"
+description = "Webscrapper to retrieve interesting company information from portalchile.org"
+authors = ["K"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+beautifulsoup4 = "^4.9.3"
+lxml = "^4.6.3"
+pandas = "^1.2.4"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^5.5.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
